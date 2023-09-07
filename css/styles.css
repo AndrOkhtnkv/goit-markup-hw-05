@@ -478,7 +478,7 @@ header .logo {
 }
 .form_a {
     display: flex;
-    gap 24px;
+    gap: 24px;
 }
 .input_a {
     width: 264px;
