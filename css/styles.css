@@ -567,9 +567,9 @@ header .logo {
     background-color: #404bbf;
     border: none;
 }
-.modal_wd_close {
+.modal_wd_close use  {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal_wd_close:hover  {
+.button_b:hover .modal_wd_close use   {
     fill: #FFFFFF;
 }
