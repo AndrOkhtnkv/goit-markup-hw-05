@@ -479,6 +479,11 @@ header .logo {
 .form_a {
     display: flex;
     gap: 24px;
+    margin-right: 80px;
+}
+.footer .form_container {
+    
+    margin-left: 80px;
 }
 .input_a {
     width: 264px;
@@ -512,4 +517,10 @@ header .logo {
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
+}
+
+.footer_icons_svg {
+    width: 24px;
+    height: 24px;
+    margin-left: 16px; 
 }
