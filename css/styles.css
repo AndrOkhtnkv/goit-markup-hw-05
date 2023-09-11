@@ -585,3 +585,17 @@ header .logo {
     color:#2E2F42;
     margin-bottom: 16px;
 }
+
+
+.form_div {
+    margin-bottom: 8px;
+}
+
+.form_b .info_userName {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    display: block;
+    margin-bottom: 4px;
+}
