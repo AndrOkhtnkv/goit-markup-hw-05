@@ -599,3 +599,9 @@ header .logo {
     display: block;
     margin-bottom: 4px;
 }
+.form_b .info_input {
+    position: relative;
+}
+.info_user_name_input {
+   width: 100%; 
+}
