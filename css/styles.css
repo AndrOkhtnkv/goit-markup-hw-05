@@ -645,3 +645,7 @@ header .logo {
 .info_text:focus {
     border-color: #4D5AE5;
 }
+.info_check {
+    margin-bottom: 24px;
+}
+
