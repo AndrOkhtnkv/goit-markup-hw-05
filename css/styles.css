@@ -664,7 +664,8 @@ header .logo {
     align-items: center;
     justify-content: center;
     fill: transparent; 
-    background-color:#404bbf;
+    
 }
 input[type="checkbox"]:checked ~ .check_box {
   background-color: #404bbf;
+}
