@@ -664,4 +664,8 @@ header .logo {
     align-items: center;
     justify-content: center;
     fill: transparent; 
+    
+}
+#user-privacy + .check_box {
+    background-color:#404bbf;
 }
