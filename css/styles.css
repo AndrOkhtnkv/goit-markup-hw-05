@@ -664,6 +664,7 @@ header .logo {
     align-items: center;
     justify-content: center;
     fill: transparent; 
+    margin-right: 8px;
 }
 input[type="checkbox"]:checked + label span {
     background-color:#404bbf;
@@ -675,6 +676,7 @@ input[type="checkbox"]:checked + label span {
 }
 .button_c {
     display: block;
+    margin: auto;
     min-width: 169px;
     height: 56px;
     font-family: "Roboto", sans-serif;
@@ -687,4 +689,5 @@ input[type="checkbox"]:checked + label span {
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
