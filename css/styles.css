@@ -616,7 +616,7 @@ header .logo {
     border-color: #4D5AE5;
     
 }
-.info_user_input:hover .modal_wd_icon{
+.form_div:focus-within .modal_wd_icon {
     fill: #4D5AE5;
 }
 
@@ -632,6 +632,7 @@ header .logo {
     margin-bottom: 16px;
 }
 .info_text {
+    display: block;
     width: 100%;
     height: 120px;
     font-size: 12px;
