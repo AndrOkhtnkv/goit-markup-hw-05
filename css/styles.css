@@ -647,6 +647,7 @@ header .logo {
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .info_text:focus {
     border-color: #4D5AE5;
 }
@@ -674,8 +675,10 @@ header .logo {
 .check_box_svg{
     display: block;
     margin: auto;
+    
 
 }
+
 input[type="checkbox"]:checked + label span {
     background-color:#404bbf;
     border: none;
