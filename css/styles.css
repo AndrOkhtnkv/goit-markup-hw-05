@@ -479,7 +479,7 @@ header .logo {
 .form_a {
     display: flex;
     gap: 24px;
-    margin-right: 80px;
+    
 }
 .footer .form_container {
     
@@ -655,6 +655,7 @@ header .logo {
     margin-bottom: 24px;
 }
 .info_user_c {
+
     font-size: 12px;
     line-height: 1.17; 
     letter-spacing: 0.04em;
@@ -673,8 +674,7 @@ header .logo {
     margin-right: 8px;
 }
 .check_box_svg{
-    display: block;
-    margin: auto;
+    border: none;
     
 
 }
@@ -682,10 +682,10 @@ header .logo {
 input[type="checkbox"]:checked + label span {
     background-color:#404bbf;
     border: none;
-    fill: #F4F4FD;
 }
 .prvc_plc {
     color:#4d5ae5; 
+    text-decoration: underline;
 }
 .button_c {
     display: block;
@@ -706,3 +706,6 @@ input[type="checkbox"]:checked + label span {
 }
 
 
+.button_c:hover, .button_c:focus {
+    background-color: #404BBF;
+}
