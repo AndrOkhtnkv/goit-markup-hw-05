@@ -518,6 +518,11 @@ header .logo {
     border: none;
     border-radius: 4px;
 }
+.button_a:hover,
+.button_a:focus {
+
+}
+
 
 .footer_icons_svg {
     width: 24px;
@@ -525,6 +530,12 @@ header .logo {
     margin-left: 16px; 
 }
 .modal_bg {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+
+
     position: fixed;
     top: 0;
     left: 0;
@@ -533,7 +544,17 @@ header .logo {
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.modal_bg.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+
+
 .modal_wd {
+
+
     position: absolute;
     top: 50%;
     left: 50%;
