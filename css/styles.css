@@ -702,10 +702,12 @@ header .logo {
     margin-right: 8px;
 }
 .check_box_svg {
-    
+    padding: 0;
     border: none;
-
-
+}
+.check_box_svg use {
+    width: 16;
+    height: 16;
 }
 
 
